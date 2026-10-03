@@ -1,0 +1,170 @@
+{
+  "slug": "resonanceclear",
+  "kind": "principle",
+  "box": 31,
+  "date": "2026-10-03",
+  "title": "Resonance",
+  "question": "What is resonance?",
+  "principle": {
+    "type": "concept",
+    "name": "Resonance",
+    "formula": "T = 2π√(m ÷ k)",
+    "formulaNote": "period = 2π × √(mass ÷ stiffness): every springy thing has its own beat. Push it at that beat (f₀ = 1 ÷ T) and the swing builds to about Q times the push",
+    "idea": "Anything that can swing or vibrate has a natural frequency of its own, set by its mass and its springiness. Push it at exactly that rhythm and small pushes add up to a big motion: that is resonance, and how big it gets depends on how little friction there is.",
+    "discovered": "1602–1638 · Galileo Galilei, Italy: the pendulum's steady beat, and timed pushes that add up. Leonhard Euler worked out the mathematics in 1739",
+    "art": "tuningfork",
+    "appliesTo": [
+      "clockclear",
+      "quartzclear",
+      "radioclear",
+      "guitarclear",
+      "tablaclear",
+      "earthquakeclear",
+      "washerclear",
+      "mriclear",
+      "microwaveclear"
+    ],
+    "examples": [
+      {
+        "title": "Pushing a swing",
+        "text": "A swing on 2 m chains takes 2.8 s per swing. One small shove each time it comes back adds a few degrees, until the swing is far higher than any single shove could send it. Push twice per swing and it goes nowhere."
+      },
+      {
+        "title": "The pendulum in a clock",
+        "text": "A pendulum 99.4 cm long swings once every 2 seconds whatever its weight, because T = 2π √(L ÷ g). The escapement gives it a tiny push each swing, exactly in time, to replace what friction takes.",
+        "box": "clockclear"
+      },
+      {
+        "title": "The quartz crystal in a watch",
+        "text": "A quartz tuning fork a few millimetres long rings 32,768 times a second. Its resonance is so sharp, with a Q around 100,000, that a cheap watch drifts only seconds a month.",
+        "box": "quartzclear"
+      },
+      {
+        "title": "Tuning a radio",
+        "text": "A coil and a capacitor resonate at f₀ = 1 ÷ (2π √(LC)). Turning the dial slides that peak along the band, so one station at, say, 1,017 kHz gets through and its neighbours are shut out.",
+        "box": "radioclear"
+      },
+      {
+        "title": "A guitar's body",
+        "text": "The air inside the box bounces in and out of the sound hole at about 100 Hz and the thin top at about 200 Hz. Those two resonances are what turn a faint string into a full, loud note.",
+        "box": "guitarclear"
+      },
+      {
+        "title": "The tabla's black spot",
+        "text": "The heavy syahi in the middle of the skin shifts the drumhead's resonances into a musical series, 1 : 2 : 3 : 4 : 5, so the drum rings with a clear note. C. V. Raman worked this out in 1920.",
+        "box": "tablaclear"
+      },
+      {
+        "title": "Buildings in an earthquake",
+        "text": "A concrete frame sways at its own period: about 0.3 s for 2 storeys, 1 s for 10. Ground shaking at the same period can make it sway ten times further than the ground itself moves.",
+        "box": "earthquakeclear"
+      },
+      {
+        "title": "A washing machine spinning up",
+        "text": "The tub hangs on springs and resonates at about 3.3 Hz. As the drum speeds up through 200 rpm an uneven load shakes it hardest, then the machine calms down at full spin.",
+        "box": "washerclear"
+      },
+      {
+        "title": "MRI",
+        "text": "In a 1.5 tesla magnet the hydrogen nuclei in your body wobble at 64 MHz. Radio waves at exactly that frequency tip them over, and at any other frequency do nothing. That is the R in MRI.",
+        "box": "mriclear"
+      },
+      {
+        "title": "The magnetron, not the water",
+        "text": "A microwave oven's magnetron is a ring of resonant cavities that sets the 2.45 GHz frequency. The water in food is not resonating: its molecules just lag behind the field, which is why 2.45 GHz was free to be chosen for depth.",
+        "box": "microwaveclear"
+      }
+    ]
+  },
+  "hook": "Push a swing in time and it flies. Shake a spring at its own beat and a 5 mm nudge becomes a 10 cm swing. Tune the shaker, wake a sitar's untouched strings, calm a skyscraper with a 660-tonne ball, and find out what really brought down the Tacoma Narrows Bridge.",
+  "thumbText": "RESONANCE",
+  "field": "physics",
+  "minutes": 12,
+  "tags": [
+    "resonance",
+    "simple harmonic motion",
+    "natural frequency",
+    "pendulum",
+    "damping",
+    "q factor",
+    "tacoma narrows",
+    "tuned mass damper",
+    "physics",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "Everything has its own beat",
+      "text": "A mass on a spring bobs at one steady rate, T = 2π √(m ÷ k), whatever the size of the bob. Shake it at that natural frequency and each small push adds to the last. The swing builds to about Q times the push, where Q measures how little friction there is."
+    },
+    {
+      "title": "A pendulum is a spring made of gravity",
+      "text": "Gravity pulls a pendulum back in proportion to how far it is pulled, so it keeps time like a spring: T = 2π √(L ÷ g), with the mass cancelling out. To get a swing high, push once per swing. Pushing twice per swing does nothing."
+    },
+    {
+      "title": "Resonance picks one frequency",
+      "text": "A resonator ignores every rhythm but its own. A sitar's untouched strings ring only for their own note, a radio's coil and capacitor pass one station, and a watch's quartz crystal, with a Q near 100,000, holds 32,768 Hz to a few parts in a million."
+    },
+    {
+      "title": "Buildings and bridges swing too",
+      "text": "A tower sways at about a tenth of a second per storey. A tuned mass damper, like Taipei 101's 660-tonne ball, swings against it and splits one tall peak into two low ones. London's Millennium Bridge swayed in 2000 because walkers fell into step with it."
+    },
+    {
+      "title": "Three stories, checked",
+      "text": "Tacoma Narrows fell to flutter, a wind-fed twist, not to a matching rhythm. Microwave ovens are not tuned to water: it absorbs best near 20 GHz and ovens use 2.45 GHz to reach deeper. A voice can break a glass, but only just, and only a lucky glass."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Simple harmonic motion",
+      "def": "The smooth to-and-fro of anything whose restoring force is proportional to its displacement."
+    },
+    {
+      "term": "Natural frequency",
+      "def": "How often a system swings when left alone: (1 ÷ 2π) √(k ÷ m) for a mass on a spring."
+    },
+    {
+      "term": "Period",
+      "def": "The time for one full swing: T = 2π √(m ÷ k) for a spring, 2π √(L ÷ g) for a pendulum."
+    },
+    {
+      "term": "Damping",
+      "def": "Anything that takes energy out of a swing: friction, air drag, a shock absorber."
+    },
+    {
+      "term": "Resonance",
+      "def": "The large response when something is pushed at, or very near, its natural frequency."
+    },
+    {
+      "term": "Quality factor (Q)",
+      "def": "How lightly damped a resonator is: the swing at resonance is about Q times the push, and the peak is f₀ ÷ Q wide."
+    },
+    {
+      "term": "Tuned mass damper",
+      "def": "A heavy mass tuned to a structure's own frequency that swings against it and soaks up its motion."
+    },
+    {
+      "term": "Flutter",
+      "def": "A self-feeding vibration driven by a steady wind above a critical speed. It needs no matching rhythm, so it is not resonance."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "resonanceclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "slug": "resonanceclear",
+  "box": 31,
+  "question": "What is resonance?",
+  "url": "https://glassbox.how/e/resonanceclear/",
+  "app": "https://glassbox.how/resonanceclear/",
+  "assets": {
+    "reel": "reel.mp4",
+    "video": "video.mp4",
+    "cover": "cover.jpg",
+    "thumb": "thumb.jpg",
+    "still": "still.jpg",
+    "historyReel": "history-reel.mp4",
+    "historySlides": [
+      "history-slide-1.jpg",
+      "history-slide-2.jpg",
+      "history-slide-3.jpg",
+      "history-slide-4.jpg",
+      "history-slide-5.jpg",
+      "history-slide-6.jpg",
+      "history-slide-7.jpg",
+      "history-slide-8.jpg",
+      "history-slide-9.jpg",
+      "history-slide-10.jpg"
+    ],
+    "slides": [
+      "slide-1.jpg",
+      "slide-2.jpg",
+      "slide-3.jpg",
+      "slide-4.jpg",
+      "slide-5.jpg",
+      "slide-6.jpg",
+      "slide-7.jpg",
+      "slide-8.jpg",
+      "slide-9.jpg",
+      "slide-10.jpg"
+    ]
+  },
+  "captions": {
+    "history": {
+      "instagram": "From a swinging lamp to a wobbling bridge: 400 years of things that answer their own rhythm.\n\n1602: A pendulum keeps its own time\n1638: Small pushes, well timed\n1656: The pendulum clock\n1678: Springs keep equal time\n1739: Resonance appears on paper\n1831: Soldiers bring down a bridge\n\nThe full story, with 20 moments, sources and charts: glassbox.how/e/resonanceclear/history (link in bio)\n\nThen play with how it works: glassbox.how/resonanceclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #resonance #simpleharmonicmotion #naturalfrequency #pendulum #damping #qfactor #history",
+      "youtube": {
+        "title": "The history of resonance in 45 seconds #shorts",
+        "description": "From a swinging lamp to a wobbling bridge: 400 years of things that answer their own rhythm.\n\n1602 · A pendulum keeps its own time (Galileo Galilei)\n1638 · Small pushes, well timed (Galileo Galilei)\n1656 · The pendulum clock (Christiaan Huygens)\n1678 · Springs keep equal time (Robert Hooke)\n1739 · Resonance appears on paper (Leonhard Euler)\n1831 · Soldiers bring down a bridge (74 men of the 60th Rifle Corps)\n\n▶ Full history: https://glassbox.how/e/resonanceclear/history/\n▶ Play with it: https://glassbox.how/e/resonanceclear/\n\n#glassbox #howitworks #explained #history"
+      }
+    },
+    "instagram": "What is resonance?\n\nPush a swing in time and it flies. Shake a spring at its own beat and a 5 mm nudge becomes a 10 cm swing. Tune the shaker, wake a sitar's untouched strings, calm a skyscraper with a 660-tonne ball, and find out what really brought down the Tacoma Narrows Bridge.\n\n→ Pull a mass on a spring and let go. It rings at its own natural frequency, every time.\n→ Shake it by 5 mm at that frequency and each push adds to the last: resonance.\n→ A pendulum is the same idea: gravity is its spring, and only its length sets the beat.\n→ Push a swing once per swing and small shoves add up. Push at the wrong rhythm and they cancel.\n→ Play one note on a sitar and the untouched strings tuned to it ring by themselves.\n\nPlay with it yourself. It's free and open source: glassbox.how/resonanceclear (link in bio)\n\nBox No. L31 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #resonance #simpleharmonicmotion #naturalfrequency #pendulum #damping #qfactor #tacomanarrows #tunedmassdamper #physics",
+    "carousel": "Swipe through: What is resonance?\n\nPush a swing in time and it flies. Shake a spring at its own beat and a 5 mm nudge becomes a 10 cm swing. Tune the shaker, wake a sitar's untouched strings, calm a skyscraper with a 660-tonne ball, and find out what really brought down the Tacoma Narrows Bridge.\n\nSave this for later, then play with the interactive version at glassbox.how/resonanceclear (link in bio).\n\nBox No. L31 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #resonance #simpleharmonicmotion #naturalfrequency #pendulum #damping #qfactor",
+    "youtube": {
+      "title": "What is resonance? #shorts",
+      "description": "Push a swing in time and it flies. Shake a spring at its own beat and a 5 mm nudge becomes a 10 cm swing. Tune the shaker, wake a sitar's untouched strings, calm a skyscraper with a 660-tonne ball, and find out what really brought down the Tacoma Narrows Bridge.\n\n▶ Play with it: https://glassbox.how/e/resonanceclear/\n⌘ Source code (MIT): https://github.com/bdeeps/resonanceclear\n\nBox No. L31 of 365 from Glassbox: one open-source interactive explainer every day.\n\n#glassbox #howitworks #explained"
+    },
+    "youtubeLong": {
+      "title": "What is resonance? (interactive explainer)",
+      "description": "Push a swing in time and it flies. Shake a spring at its own beat and a 5 mm nudge becomes a 10 cm swing. Tune the shaker, wake a sitar's untouched strings, calm a skyscraper with a 660-tonne ball, and find out what really brought down the Tacoma Narrows Bridge.\n\n▶ Play with the interactive version: https://glassbox.how/e/resonanceclear/\n⌘ Source code (MIT): https://github.com/bdeeps/resonanceclear\n\nIn this video:\n• Everything has its own beat. A mass on a spring bobs at one steady rate, T = 2π √(m ÷ k), whatever the size of the bob.\n• A pendulum is a spring made of gravity. Gravity pulls a pendulum back in proportion to how far it is pulled, so it keeps time like a spring: T = 2π √(L ÷ g), with the mass cancelling out.\n• Resonance picks one frequency. A resonator ignores every rhythm but its own.\n• Buildings and bridges swing too. A tower sways at about a tenth of a second per storey.\n• Three stories, checked. Tacoma Narrows fell to flutter, a wind-fed twist, not to a matching rhythm.\n\nGlassbox opens one box a day: an interactive model of how something works, plus the code behind it.\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+    },
+    "short": "What is resonance?\n\nPush a swing in time and it flies.\n\nPlay with it: https://glassbox.how/e/resonanceclear/",
+    "linkedin": "What is resonance?\n\nPush a swing in time and it flies. Shake a spring at its own beat and a 5 mm nudge becomes a 10 cm swing. Tune the shaker, wake a sitar's untouched strings, calm a skyscraper with a 660-tonne ball, and find out what really brought down the Tacoma Narrows Bridge.\n\n1. Everything has its own beat\n2. A pendulum is a spring made of gravity\n3. Resonance picks one frequency\n4. Buildings and bridges swing too\n5. Three stories, checked\n\nI built an interactive, open-source explainer so you can pull the levers yourself. It's box No. L31 in my one-a-day project, Glassbox.\n\nTry it: https://glassbox.how/e/resonanceclear/\nCode: https://github.com/bdeeps/resonanceclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+  },
+  "schedule": {
+    "at": "2026-10-03T13:00:00.000Z"
+  },
+  "targets": [
+    {
+      "service": "instagram",
+      "kind": "reel",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "carousel",
+      "offsetHours": 4,
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "short",
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "linkedin",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "twitter",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "threads",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "tiktok",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "history-reel",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "youtube",
+      "kind": "history-short",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "instagram",
+      "kind": "history-carousel",
+      "offsetHours": 6,
+      "enabled": false
+    }
+  ],
+  "thumbnailOffsetMs": 1200,
+  "updatedAt": "2026-10-03T11:50:30.565Z"
+}

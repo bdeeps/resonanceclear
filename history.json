@@ -1,0 +1,635 @@
+{
+  "title": "The history of resonance",
+  "tagline": "From a swinging lamp to a wobbling bridge: 400 years of things that answer their own rhythm.",
+  "intro": "People have pushed swings and rung bells for ever, but it took until the 1600s for anyone to notice that a swinging weight keeps its own time, and that small pushes at that rhythm add up. It took another century for the mathematics, and a third for engineers to take the idea seriously. Today resonance tunes radios, runs watches, scans bodies and decides which buildings survive an earthquake.",
+  "eras": [
+    {
+      "id": "beat",
+      "name": "The steady beat",
+      "from": 1602,
+      "to": 1700,
+      "color": "#ffb547",
+      "summary": "Galileo, Huygens and Hooke find that pendulums and springs each swing at one rate of their own, and that timed pushes build a big swing."
+    },
+    {
+      "id": "maths",
+      "name": "Pushing, in equations",
+      "from": 1700,
+      "to": 1880,
+      "color": "#6fb6ff",
+      "summary": "Euler meets resonance as a mathematical surprise, Young adds friction, soldiers learn to break step and Helmholtz turns resonators into instruments."
+    },
+    {
+      "id": "tuned",
+      "name": "Tuned circuits and crystals",
+      "from": 1880,
+      "to": 1939,
+      "color": "#c49bff",
+      "summary": "Electrical resonance catches radio waves and picks stations, quartz crystals keep time, and atoms turn out to resonate too."
+    },
+    {
+      "id": "modern",
+      "name": "Bridges, towers and myths",
+      "from": 1940,
+      "to": 2026,
+      "color": "#5ce1a9",
+      "summary": "A bridge falls to flutter, an earthquake singles out mid-rise buildings, a footbridge sways under its own crowd, and old stories get tested."
+    }
+  ],
+  "events": [
+    {
+      "year": 1602,
+      "date": "29 November 1602",
+      "era": "beat",
+      "art": "pendulum",
+      "key": true,
+      "title": "A pendulum keeps its own time",
+      "who": "Galileo Galilei",
+      "where": "Padua",
+      "country": "Italy",
+      "text": "In a letter to Guidobaldo del Monte, Galileo described pendulums: swings of the same length take the same time, wide or narrow. His biographer Viviani later said a swinging lamp in Pisa cathedral started him off around 1582, a story historians treat with caution.",
+      "why": "The steady beat of a swinging weight is the first clear case of a natural frequency.",
+      "sources": [
+        1
+      ],
+      "box": "swing"
+    },
+    {
+      "year": 1638,
+      "date": "1638",
+      "era": "beat",
+      "art": "string",
+      "key": true,
+      "title": "Small pushes, well timed",
+      "who": "Galileo Galilei",
+      "where": "Leiden (published), Arcetri",
+      "country": "Italy",
+      "text": "In Two New Sciences, Galileo noted that a heavy pendulum or a great bell can be set swinging by weak pushes if they come in time with its motion, and used the same idea for strings that sound without being touched. He had the effect, though not yet the right theory.",
+      "why": "It is the first description of resonance in print, and the word comes from this talk of sounding strings.",
+      "sources": [
+        2,
+        3,
+        0
+      ],
+      "box": "idea"
+    },
+    {
+      "year": 1656,
+      "date": "1656 (patented 1657)",
+      "era": "beat",
+      "art": "gear",
+      "key": true,
+      "title": "The pendulum clock",
+      "who": "Christiaan Huygens",
+      "where": "The Hague",
+      "country": "Netherlands",
+      "text": "Huygens built the first working pendulum clock. The pendulum sets the pace and the clock's weight gives it a small push each swing. Errors fell from about 15 minutes a day to about 15 seconds.",
+      "why": "A resonator kept going by tiny timed pushes became the world's standard of time for nearly 300 years.",
+      "sources": [
+        4,
+        1
+      ],
+      "box": "swing"
+    },
+    {
+      "year": 1665,
+      "date": "1665",
+      "era": "beat",
+      "art": "metronome",
+      "key": false,
+      "title": "Two clocks fall into step",
+      "who": "Christiaan Huygens",
+      "where": "The Hague",
+      "country": "Netherlands",
+      "text": "Ill in bed, Huygens watched two of his pendulum clocks hanging from one beam. Within a short time they always ended up swinging in exact opposition. He called it an odd sympathy and traced it to tiny movements of the beam.",
+      "why": "It is the first record of oscillators synchronising, the same effect that later put walkers in step on a bridge.",
+      "sources": [
+        4
+      ],
+      "box": "shake"
+    },
+    {
+      "year": 1673,
+      "date": "1673",
+      "era": "beat",
+      "art": "scroll",
+      "key": false,
+      "title": "The period, as a formula",
+      "who": "Christiaan Huygens",
+      "where": "Paris",
+      "country": "France",
+      "text": "In Horologium Oscillatorium, Huygens analysed the pendulum mathematically. He showed that a circular swing is not perfectly even, found the curve (a cycloid) on which it would be, and gave the period as 2π √(L ÷ g).",
+      "why": "It turned the pendulum's beat into a law, and showed where the simple law stops: at large swings.",
+      "sources": [
+        4,
+        1
+      ],
+      "box": "swing"
+    },
+    {
+      "year": 1678,
+      "date": "1678",
+      "era": "beat",
+      "art": "spring2",
+      "key": true,
+      "title": "Springs keep equal time",
+      "who": "Robert Hooke",
+      "where": "London",
+      "country": "England",
+      "text": "In his lectures Of Spring, Hooke stated his law of springs and used it to explain why a spring's vibrations take equal times whether large or small, and why a vibrating string gives one steady note.",
+      "why": "A restoring force proportional to displacement is the reason anything has a single natural frequency.",
+      "sources": [
+        5
+      ],
+      "box": "idea"
+    },
+    {
+      "year": 1739,
+      "date": "written 1739, published 1750",
+      "era": "maths",
+      "art": "quill",
+      "key": true,
+      "title": "Resonance appears on paper",
+      "who": "Leonhard Euler",
+      "where": "St Petersburg",
+      "country": "Russia",
+      "text": "Euler solved the motion of a body pulled by a spring-like force and pushed by a force that varies smoothly in time. When the push matched the body's own rhythm, his solution grew without limit. He called the result most remarkable, since finite forces produced it.",
+      "why": "It is the first mathematical account of a driven oscillator, though without friction, so the swing never stopped growing.",
+      "sources": [
+        6,
+        7,
+        3
+      ],
+      "box": "idea"
+    },
+    {
+      "year": 1807,
+      "date": "1807",
+      "era": "maths",
+      "art": "wave",
+      "key": false,
+      "title": "Friction completes the picture",
+      "who": "Thomas Young",
+      "where": "London",
+      "country": "England",
+      "text": "In his lectures on natural philosophy, Young treated a pendulum with friction pushed at a steady rhythm, used it as a model for the ocean tides, and coined the phrase forced vibration. A recent history credits this as the first correct description of resonance.",
+      "why": "With friction included, the swing at resonance is large but finite, as in every real system.",
+      "sources": [
+        3
+      ],
+      "box": "idea"
+    },
+    {
+      "year": 1831,
+      "date": "12 April 1831",
+      "era": "maths",
+      "art": "person",
+      "key": true,
+      "title": "Soldiers bring down a bridge",
+      "who": "74 men of the 60th Rifle Corps",
+      "where": "Broughton, near Manchester",
+      "country": "England",
+      "text": "Marching four abreast over a new suspension bridge, the soldiers felt it bounce and stepped in time with it. A bolt in a stay chain snapped and the deck dropped into the River Irwell. About twenty men were hurt and none died. A badly forged bolt shared the blame. In 1850 a bridge at Angers in France fell under soldiers in a storm, killing 226.",
+      "why": "The British Army ordered troops to break step on bridges, a rule still followed.",
+      "sources": [
+        8,
+        9
+      ],
+      "box": "shake"
+    },
+    {
+      "year": 1863,
+      "date": "1863",
+      "era": "maths",
+      "art": "soundwave",
+      "key": false,
+      "title": "Resonators that pick out one tone",
+      "who": "Hermann von Helmholtz",
+      "where": "Heidelberg",
+      "country": "Germany",
+      "text": "In On the Sensations of Tone, Helmholtz used hollow glass and brass globes, each answering a single pitch, to pick the separate pure tones out of a musical sound. He argued that the ear does something similar.",
+      "why": "It made resonance a measuring tool: a way to split a complicated vibration into its frequencies.",
+      "sources": [
+        10
+      ],
+      "box": "tuned"
+    },
+    {
+      "year": 1887,
+      "date": "November 1887",
+      "era": "tuned",
+      "art": "magnet",
+      "key": true,
+      "title": "A tuned loop catches radio waves",
+      "who": "Heinrich Hertz",
+      "where": "Karlsruhe",
+      "country": "Germany",
+      "text": "Hertz made electric sparks in one circuit and saw tiny sparks jump in a separate wire loop across the room. The loop worked only when its size made it resonate with the transmitter, at roughly 50 MHz.",
+      "why": "Electrical resonance proved that radio waves exist, and the unit of frequency now carries his name.",
+      "sources": [
+        11
+      ],
+      "box": "tuned"
+    },
+    {
+      "year": 1898,
+      "date": "filed 1897, granted 10 August 1898",
+      "era": "tuned",
+      "art": "tuningfork",
+      "key": false,
+      "title": "Tuning the wireless",
+      "who": "Oliver Lodge",
+      "where": "Liverpool",
+      "country": "England",
+      "text": "Lodge patented syntonic wireless: a coil and a capacitor in the transmitter and in the receiver, set to the same frequency, so that one station could be picked from another. The Marconi Company bought the patent in 1912.",
+      "why": "Every radio dial since is a variable resonator.",
+      "sources": [
+        12
+      ],
+      "box": "tuned"
+    },
+    {
+      "year": 1909,
+      "date": "filed 30 October 1909",
+      "era": "tuned",
+      "art": "spring2",
+      "key": false,
+      "title": "A second mass to calm the first",
+      "who": "Hermann Frahm",
+      "where": "Hamburg",
+      "country": "Germany",
+      "text": "Frahm patented a way to stop a ship or a machine shaking: attach a smaller mass on a spring tuned to the same frequency. It swings against the main body and takes the motion out of it.",
+      "why": "This is the tuned mass damper, now hung inside skyscrapers and under footbridges.",
+      "sources": [
+        13,
+        26
+      ],
+      "box": "shake"
+    },
+    {
+      "year": 1927,
+      "date": "October 1927",
+      "era": "tuned",
+      "art": "chip",
+      "key": true,
+      "title": "A clock that runs on quartz",
+      "who": "Warren Marrison and Joseph Horton",
+      "where": "Bell Telephone Laboratories, New York",
+      "country": "United States",
+      "text": "Pierre and Jacques Curie had found in 1880 that quartz makes a voltage when squeezed, and Walter Cady built the first quartz oscillator in 1921. Marrison and Horton used a crystal ringing 50,000 times a second to drive a clock.",
+      "why": "A crystal's resonance is far sharper than a pendulum's, so quartz clocks soon outran the best mechanical ones.",
+      "sources": [
+        15,
+        14
+      ],
+      "box": "tuned"
+    },
+    {
+      "year": 1938,
+      "date": "1938",
+      "era": "tuned",
+      "art": "atomspin",
+      "key": false,
+      "title": "Atoms that answer one frequency",
+      "who": "Isidor Rabi",
+      "where": "Columbia University, New York",
+      "country": "United States",
+      "text": "Rabi sent a beam of molecules through a magnet and found that their nuclei flip only when radio waves of one exact frequency are applied. Felix Bloch and Edward Purcell showed the same in liquids and solids in 1946.",
+      "why": "Nuclear magnetic resonance led to MRI scanners and to atomic clocks. Rabi won the Nobel Prize in 1944, Bloch and Purcell in 1952.",
+      "sources": [
+        16
+      ],
+      "box": "tuned"
+    },
+    {
+      "year": 1940,
+      "date": "7 November 1940",
+      "era": "modern",
+      "art": "wind",
+      "key": true,
+      "title": "Galloping Gertie tears itself apart",
+      "who": "Tacoma Narrows Bridge",
+      "where": "Tacoma, Washington",
+      "country": "United States",
+      "text": "Four months after it opened, the slender 853 m span began to twist 12 times a minute in a steady wind of about 64 km/h, and fell at about 11 am. The only death was a dog, Tubby. The inquiry found resonance with wind vortices very improbable as the cause.",
+      "why": "Film of the collapse became the most famous, and most misunderstood, picture of a vibration disaster.",
+      "sources": [
+        17,
+        18
+      ],
+      "box": "limits"
+    },
+    {
+      "year": 1985,
+      "date": "19 September 1985",
+      "era": "modern",
+      "art": "building",
+      "key": false,
+      "title": "An earthquake picks its buildings",
+      "who": "Mexico City",
+      "where": "Mexico City",
+      "country": "Mexico",
+      "text": "A magnitude 8.0 earthquake struck more than 350 km away, but the soft lakebed under the city shook with a period of about 2 to 2.5 seconds. Buildings of 6 to 15 storeys, with matching sway periods, suffered worst: 412 collapsed.",
+      "why": "It is the clearest case of resonance choosing which structures fail, and it changed building codes on soft ground.",
+      "sources": [
+        20
+      ],
+      "box": "shake"
+    },
+    {
+      "year": 1991,
+      "date": "February 1991",
+      "era": "modern",
+      "art": "word",
+      "key": true,
+      "title": "The textbooks are corrected",
+      "who": "K. Yusuf Billah and Robert Scanlan",
+      "where": "American Journal of Physics",
+      "country": "United States",
+      "text": "In the American Journal of Physics, Billah and Scanlan showed that many textbooks wrongly blamed Tacoma Narrows on forced resonance. The real cause was aeroelastic flutter: the wind's twisting force grew with the deck's own motion, a kind of negative damping.",
+      "why": "A steady wind has no rhythm to match, so the right lesson is self-excitation, not resonance.",
+      "sources": [
+        19,
+        17
+      ],
+      "box": "limits"
+    },
+    {
+      "year": 2000,
+      "date": "10 June 2000",
+      "era": "modern",
+      "art": "person",
+      "key": true,
+      "title": "The wobbly bridge",
+      "who": "Arup, Foster + Partners and Anthony Caro",
+      "where": "London",
+      "country": "England",
+      "text": "London's Millennium Bridge opened to about 90,000 people in a day and swayed sideways by up to 7 cm. Walkers were unconsciously stepping in time with the deck and feeding its motion. It closed after two days. Tests found the sway took off above a critical crowd, about 160 on one span. It reopened in 2002 with 37 fluid dampers and 52 tuned mass dampers.",
+      "why": "It showed a new way for crowds to drive a bridge, and every large footbridge is now checked for it.",
+      "sources": [
+        21,
+        23,
+        22
+      ],
+      "box": "shake"
+    },
+    {
+      "year": 2005,
+      "date": "2005",
+      "era": "modern",
+      "art": "microphone",
+      "key": false,
+      "title": "A voice breaks a glass, on camera",
+      "who": "Jaime Vendera",
+      "where": "Filmed for the programme MythBusters",
+      "country": "United States",
+      "text": "For the programme MythBusters, the rock singer and vocal coach Jaime Vendera shattered a crystal wine glass with his unamplified voice at about 105 decibels. It took twelve glasses to find one that would break.",
+      "why": "An old story turned out to be possible, but only at the exact pitch, very loud, and with a lucky glass.",
+      "sources": [
+        24
+      ],
+      "box": "limits"
+    }
+  ],
+  "firsts": [
+    {
+      "label": "First working pendulum clock",
+      "value": "1656",
+      "who": "Christiaan Huygens, Netherlands"
+    },
+    {
+      "label": "First mathematical account of resonance",
+      "value": "1739",
+      "who": "Leonhard Euler, St Petersburg"
+    },
+    {
+      "label": "First patent for tuned (syntonic) radio",
+      "value": "1897–98",
+      "who": "Oliver Lodge, England"
+    },
+    {
+      "label": "First patent for a tuned vibration absorber",
+      "value": "1909",
+      "who": "Hermann Frahm, Germany"
+    },
+    {
+      "label": "First quartz clock",
+      "value": "1927",
+      "who": "Warren Marrison and Joseph Horton, United States"
+    },
+    {
+      "label": "First filmed glass broken by an unamplified voice",
+      "value": "2005",
+      "who": "Jaime Vendera, United States"
+    }
+  ],
+  "people": [
+    {
+      "name": "Galileo Galilei",
+      "life": "1564 – 1642",
+      "role": "Mathematician and natural philosopher",
+      "from": "Italy",
+      "note": "Found that a pendulum keeps its own time and that small pushes in step with it add up."
+    },
+    {
+      "name": "Christiaan Huygens",
+      "life": "1629 – 1695",
+      "role": "Physicist, astronomer and clockmaker",
+      "from": "Netherlands",
+      "note": "Built the first pendulum clock, derived the pendulum's period and saw two clocks fall into step."
+    },
+    {
+      "name": "Leonhard Euler",
+      "life": "1707 – 1783",
+      "role": "Mathematician",
+      "from": "Switzerland",
+      "note": "Solved the driven oscillator in 1739 and found its swing growing without limit when the rhythms matched."
+    },
+    {
+      "name": "Thomas Young",
+      "life": "1773 – 1829",
+      "role": "Physician and physicist",
+      "from": "England",
+      "note": "Added friction to the driven pendulum, coined 'forced vibration' and applied it to the tides."
+    },
+    {
+      "name": "Hermann von Helmholtz",
+      "life": "1821 – 1894",
+      "role": "Physicist and physiologist",
+      "from": "Germany",
+      "note": "Used tuned resonators to split musical sounds into pure tones. Heinrich Hertz was his student."
+    },
+    {
+      "name": "Oliver Lodge",
+      "life": "1851 – 1940",
+      "role": "Physicist",
+      "from": "England",
+      "note": "Patented syntonic tuning, which lets a radio receiver pick out one transmitter."
+    }
+  ],
+  "series": [],
+  "facts": [
+    "The letter Q for a resonator's quality was picked by the engineer K. S. Johnson at Western Electric reportedly just because the other letters were already taken.",
+    "The only death in the Tacoma Narrows collapse was a cocker spaniel called Tubby, left in a car on the bridge.",
+    "Taipei 101 hangs a 660-tonne steel ball, 5.5 m across, near its top as a tuned mass damper. In a 2015 typhoon it swung a record 1 metre.",
+    "The first quartz wristwatch, Seiko's Astron of December 1969, used a crystal ringing 8,192 times a second. Today's watches use 32,768, which is 2 to the power 15, so fifteen halvings give one tick a second.",
+    "Microwave ovens are not tuned to water. Liquid water absorbs most strongly near 20 GHz. Ovens use 2.45 GHz, where absorption is weaker, so the waves reach a couple of centimetres into the food."
+  ],
+  "sources": [
+    {
+      "title": "Resonance",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Resonance"
+    },
+    {
+      "title": "Pendulum",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pendulum"
+    },
+    {
+      "title": "Two New Sciences",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Two_New_Sciences"
+    },
+    {
+      "title": "Mechanical resonance: 300 years from discovery to the full understanding of its importance (J. Bleck-Neuhaus, 2018)",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/1811.08353"
+    },
+    {
+      "title": "Christiaan Huygens",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Christiaan_Huygens"
+    },
+    {
+      "title": "Lectures de Potentia Restitutiva, or Of Spring (Robert Hooke, 1678), full text",
+      "publisher": "Early English Books / Distant Reader",
+      "url": "https://distantreader.org/stacks/earlyprint/txt/A44322.txt"
+    },
+    {
+      "title": "E126: De novo genere oscillationum (On a new type of oscillation)",
+      "publisher": "Euler Archive, University of the Pacific",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/126/"
+    },
+    {
+      "title": "A translation of L. Euler's 'On a new class of oscillations' (S. R. Bistafa, 2021)",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2105.03319"
+    },
+    {
+      "title": "Broughton Suspension Bridge",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Broughton_Suspension_Bridge"
+    },
+    {
+      "title": "Angers Bridge",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Angers_Bridge"
+    },
+    {
+      "title": "Hermann von Helmholtz",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hermann_von_Helmholtz"
+    },
+    {
+      "title": "Heinrich Hertz",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Heinrich_Hertz"
+    },
+    {
+      "title": "Oliver Lodge",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Oliver_Lodge"
+    },
+    {
+      "title": "US Patent 989,958: Device for damping vibrations of bodies (H. Frahm, filed 1909)",
+      "publisher": "Google Patents",
+      "url": "https://patents.google.com/patent/US989958"
+    },
+    {
+      "title": "Crystal oscillator",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Crystal_oscillator"
+    },
+    {
+      "title": "Quartz clock",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Quartz_clock"
+    },
+    {
+      "title": "Nuclear magnetic resonance",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance"
+    },
+    {
+      "title": "Tacoma Narrows Bridge (1940)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)"
+    },
+    {
+      "title": "Tacoma Narrows Bridge history: why did Galloping Gertie collapse?",
+      "publisher": "Washington State Department of Transportation",
+      "url": "https://www.wsdot.wa.gov/tnbhistory/bridges-failure.htm"
+    },
+    {
+      "title": "The Tacoma Narrows Bridge (notes on Billah and Scanlan, Am. J. Phys. 59, 118, 1991)",
+      "publisher": "University of Nevada, Las Vegas",
+      "url": "https://www.physics.unlv.edu/~jeffery/astro/physics/tacoma.html"
+    },
+    {
+      "title": "1985 Mexico City earthquake",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1985_Mexico_City_earthquake"
+    },
+    {
+      "title": "Millennium Bridge, London",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Millennium_Bridge,_London"
+    },
+    {
+      "title": "Crowd synchrony on the Millennium Bridge (Strogatz, Abrams, McRobie, Eckhardt and Ott, Nature 438, 2005)",
+      "publisher": "Nature / Northwestern University",
+      "url": "https://dmabrams.esam.northwestern.edu/pubs/Strogatz%20Abrams%20McRobie%20Eckhardt%20Ott%20-%20Crowd%20synchrony%20on%20the%20Millennium%20Bridge%20-%20Nature%202005.pdf"
+    },
+    {
+      "title": "The London Millennium Footbridge (Dallard et al., The Structural Engineer 79, 2001)",
+      "publisher": "Institution of Structural Engineers",
+      "url": "https://www.istructe.org/journal/volumes/volume-79-(published-in-2001)/issue-22/the-london-millennium-footbridge/"
+    },
+    {
+      "title": "Fact or Fiction?: An Opera Singer's Piercing Voice Can Shatter Glass",
+      "publisher": "Scientific American",
+      "url": "https://www.scientificamerican.com/article/fact-or-fiction-opera-singer-can-shatter-glass/"
+    },
+    {
+      "title": "Q factor",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Q_factor"
+    },
+    {
+      "title": "Tuned mass damper",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tuned_mass_damper"
+    },
+    {
+      "title": "Taipei 101",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Taipei_101"
+    },
+    {
+      "title": "Microwave oven",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Microwave_oven"
+    },
+    {
+      "title": "Dielectric heating",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dielectric_heating"
+    },
+    {
+      "title": "Sympathetic string",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sympathetic_string"
+    }
+  ]
+}
